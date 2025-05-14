@@ -17,3 +17,9 @@ let score= "33";
 console.log(typeof score);
 let valueInScore = Number(score); // typecasting -> remember 'N' will be capital
 console.log(typeof valueInScore);
+
+let num= "33abc"
+newnum= Number(num)
+console.log(typeof newnum); // will return number
+console.log(newnum)    // will return NaN
+
