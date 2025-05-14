@@ -9,3 +9,10 @@ alert(3+3); // this will give error as "alert is not defined" under Node -> in b
 //symbol
 //object
 //undefined
+
+//-------------------------------------------------------------------------------------
+// lec 6 -> DATA CONVERSION CONFUSION
+
+let score= "33";
+console.log(typeof score);
+let valueInScore = Number(score);
